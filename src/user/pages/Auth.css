@@ -1,0 +1,23 @@
+.authentication__header {
+  color: white;
+  text-align: center;
+}
+
+.authentication {
+  width: 90%;
+  max-width: 25rem;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.authentication form {
+  margin-bottom: 1rem;
+}
+
+/**
+ * added to handle React.lazy() chunking re-orders css selectors 
+ */
+.card.authentication {
+  text-align: center !important;
+  margin: 7rem auto;
+}
